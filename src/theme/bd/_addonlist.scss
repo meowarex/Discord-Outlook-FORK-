@@ -1,0 +1,13 @@
+.bd-addon-list {
+    --bdAddonMini-bg-checked: var(--background-primary);
+    --bdAddonMini-bg-unchecked-hover: var(--background-modifier-hover);
+}
+
+.bd-addon-card {
+    border: 1px solid transparent;
+}
+
+.bd-addon-card:not(:has(.bd-switch-checked), .bd-addon-card-disabled) {
+    background: none;
+    border: 1px solid var(--background-tertiary);
+}

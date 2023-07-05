@@ -1,0 +1,7 @@
+// The "dev" script will target this file.
+// Generating the full theme file.
+
+@use './core/root';
+@use './theme';
+
+@use './addons/settingssidebar';
